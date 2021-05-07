@@ -77,6 +77,7 @@ int main()
 	s.push(30);
 	s.push(40);
 	s.push(40);
+	// now stack is full 
 	s.push(50);
 	 
 	 int pop_value=s.pop();
@@ -89,12 +90,15 @@ int main()
 	 cout<<pop_value<<endl;
 	  pop_value=s.pop();
 	 cout<<pop_value<<endl;
+	// now nothing is in stack
 	  pop_value=s.pop();
 	 cout<<pop_value<<endl;
 	 
 	 cout<<s.size()<<endl;
+	//again push value
 	 s.push(50);
 	 s.push(100);
+	//top elemet 100
 	 cout<<s.top()<<endl;
 	 
 	
